@@ -5,6 +5,11 @@
 	--back: #BE6E46;
 }
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 html {
 	font-family: Verdana, Geneva, sans-serif;
 	color: var(--light);
@@ -18,16 +23,18 @@ body {
 
 header {
 	text-align: center;
+	padding:  80px 0 30px 0;
 }
 
 #form-wrapper {
 	display:block;
 	margin:0 auto;
-	width: 800px;
+	max-width: 800px;
+	width: 100% ;
 }
 
 #survey-form {
-	padding:40px;
+	padding: 30px;
 	background-color: var(--dark);
 	display: flex;
 	flex-direction: column;
@@ -37,6 +44,34 @@ header {
 .form-group {
 	display: flex;
 	flex-direction: column;
-	margin: 0px 0 10px 0;
+	margin-bottom: 10px;
 	padding: 5px;
+	width:100%;
 }
+
+.form-group__title {
+	margin-bottom: 5px;
+}
+
+.form-group__maxwidthinput {
+	font-family: Verdana, Geneva, sans-serif;
+	height:2em;
+	padding:0.2em 0.4em;
+}
+
+
+.survey-form__submit {
+	font-size: 1.5em;
+	background-color: var(--cta);
+	color: var(--light);
+	padding: 0.4em;
+}
+
+.survey-form__comments {
+	padding: 0.4em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+
