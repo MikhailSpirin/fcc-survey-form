@@ -1,0 +1,42 @@
+:root { 
+	--cta: #65B891 ;
+	--dark: #534B62;
+	--light: #FFFDFD;
+	--back: #BE6E46;
+}
+
+html {
+	font-family: Verdana, Geneva, sans-serif;
+	color: var(--light);
+}
+
+body {
+	margin: 30px 50px;     
+	line-height: 1.4; 
+	background-color: var(--back);
+}
+
+header {
+	text-align: center;
+}
+
+#form-wrapper {
+	display:block;
+	margin:0 auto;
+	width: 800px;
+}
+
+#survey-form {
+	padding:40px;
+	background-color: var(--dark);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0 10px 0;
+	padding: 5px;
+}
