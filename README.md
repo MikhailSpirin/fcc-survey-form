@@ -1,4 +1,4 @@
-# freeCodeCamp project - Build a Survey Form
+# FreeCodeCamp project - Build a Survey Form
 
 ### HTML/CSS - static survey form 
 
